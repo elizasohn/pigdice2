@@ -1,0 +1,24 @@
+{
+  "name": "pig-dice-game",
+  "version": "1.0.0",
+  "description": "### __",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikemanep1/pig-dice-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikemanep1/pig-dice-game/issues"
+  },
+  "homepage": "https://github.com/ikemanep1/pig-dice-game#readme",
+  "devDependencies": {
+    "webpack": "4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
