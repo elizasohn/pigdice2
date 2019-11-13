@@ -1,0 +1,97 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Entry module not found: Error: Can't resolve '/Users/Guest/Desktop/pig-dice-ga  me/src/index.html' in '/Users/Guest/Desktop/pig-dice-game':
+  Error: Can't resolve '/Users/Guest/Desktop/pig-dice-game/src/index.html' in '/  Users/Guest/Desktop/pig-dice-game'
+
+  - compiler.js:79 childCompiler.runAsChild
+    [pig-dice-game]/[html-webpack-plugin]/lib/compiler.js:79:16
+
+  - Compiler.js:343 compile
+    [pig-dice-game]/[webpack]/lib/Compiler.js:343:11
+
+  - Compiler.js:671 hooks.afterCompile.callAsync.err
+    [pig-dice-game]/[webpack]/lib/Compiler.js:671:15
+
+
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [pig-dice-game]/[tapable]/lib/Hook.js:154:20
+
+  - Compiler.js:668 compilation.seal.err
+    [pig-dice-game]/[webpack]/lib/Compiler.js:668:31
+
+
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [pig-dice-game]/[tapable]/lib/Hook.js:154:20
+
+  - Compilation.js:1385 hooks.optimizeAssets.callAsync.err
+    [pig-dice-game]/[webpack]/lib/Compilation.js:1385:35
+
+
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [pig-dice-game]/[tapable]/lib/Hook.js:154:20
+
+  - Compilation.js:1376 hooks.optimizeChunkAssets.callAsync.err
+    [pig-dice-game]/[webpack]/lib/Compilation.js:1376:32
+
+
+  - index.js:321 taskRunner.run
+    [pig-dice-game]/[uglifyjs-webpack-plugin]/dist/index.js:321:9
+
+  - TaskRunner.js:46 TaskRunner.run
+    [pig-dice-game]/[uglifyjs-webpack-plugin]/dist/TaskRunner.js:46:7
+
+  - index.js:227 UglifyJsPlugin.optimizeFn
+    [pig-dice-game]/[uglifyjs-webpack-plugin]/dist/index.js:227:18
+
+
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [pig-dice-game]/[tapable]/lib/Hook.js:154:20
+
+  - Compilation.js:1371 hooks.additionalAssets.callAsync.err
+    [pig-dice-game]/[webpack]/lib/Compilation.js:1371:36
+
+
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [pig-dice-game]/[tapable]/lib/Hook.js:154:20
+
+  - Compilation.js:1367 hooks.optimizeTree.callAsync.err
+    [pig-dice-game]/[webpack]/lib/Compilation.js:1367:32
+
+
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [pig-dice-game]/[tapable]/lib/Hook.js:154:20
+
+  - Compilation.js:1304 Compilation.seal
+    [pig-dice-game]/[webpack]/lib/Compilation.js:1304:27
+
+  - Compiler.js:665 compilation.finish.err
+    [pig-dice-game]/[webpack]/lib/Compiler.js:665:18
+
+  - Compilation.js:1224 hooks.finishModules.callAsync.err
+    [pig-dice-game]/[webpack]/lib/Compilation.js:1224:4
+
+
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [pig-dice-game]/[tapable]/lib/Hook.js:154:20
+
+  - Compilation.js:1216 Compilation.finish
+    [pig-dice-game]/[webpack]/lib/Compilation.js:1216:28
+
+  - Compiler.js:662 hooks.make.callAsync.err
+    [pig-dice-game]/[webpack]/lib/Compiler.js:662:17
+
+
+  - Compilation.js:1148 _addModuleChain
+    [pig-dice-game]/[webpack]/lib/Compilation.js:1148:12
+
+  - Compilation.js:1007 errorAndCallback.bail.err
+    [pig-dice-game]/[webpack]/lib/Compilation.js:1007:6
+
+  - Compilation.js:1038 moduleFactory.create
+    [pig-dice-game]/[webpack]/lib/Compilation.js:1038:14
+
+  - NormalModuleFactory.js:401 factory
+    [pig-dice-game]/[webpack]/lib/NormalModuleFactory.js:401:22
+
+</pre><script type="text/javascript" src="bundle.js"></script>
